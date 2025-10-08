@@ -40,13 +40,6 @@ var Personne = /** @class */ (function () {
         enumerable: false,
         configurable: true
     });
-    Object.defineProperty(Personne.prototype, "FullInfos", {
-        get: function () {
-            return "".concat(this.nom, " ").concat(this.prenom, ", ").concat(this.adresse.FullAdresse);
-        },
-        enumerable: false,
-        configurable: true
-    });
     return Personne;
 }());
 var Enseignant = /** @class */ (function (_super) {
@@ -83,7 +76,7 @@ var Enseignant = /** @class */ (function (_super) {
     });
     Object.defineProperty(Enseignant.prototype, "FullInfos", {
         get: function () {
-            return "".concat(this.nom, " ").concat(this.prenom, ", ").concat(this.adresse.FullAdresse, ", Sp\u00E9cialit\u00E9: ").concat(this.specialite, ", Statut: ").concat(this.statut);
+            return;
         },
         enumerable: false,
         configurable: true
