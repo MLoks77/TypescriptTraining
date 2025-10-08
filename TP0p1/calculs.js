@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var readlineSync = require("readline-sync");
+var a = parseFloat(readlineSync.question("Entrez le premier nombre : "));
+var b = parseFloat(readlineSync.question("Entrez le premier nombre : "));
+var somme = a + b;
+var difference = a - b;
+var produit = a * b;
+var quotient = a / b;
+console.log("les deux nombres sont : a = ".concat(a, ", b = ").concat(b));
+console.log("somme = " + somme);
+console.log("difference = " + difference);
+console.log("produit = " + produit);
+console.log("quotient = " + quotient);
