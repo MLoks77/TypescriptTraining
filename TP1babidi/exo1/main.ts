@@ -14,12 +14,12 @@ export class TestExercice {
         console.log("Point A", pointA.afficher());
         console.log("Point B", pointB.afficher());
         console.log(" ")
-        // Setter 2
+        // Setter
         pointA._abs - 3;
         pointB._ord - 5;
         console.log('Point A modifié', pointA.afficher());
         console.log(" ")
-        // Getter 3
+        // Getter
         const distanceB = pointA.calculerDistance(pointB);
         console.log('Distance AB', distanceB);
         console.log(" ")
@@ -36,7 +36,7 @@ export class TestExercice {
     static testerTroisPoints(): void {
         console.log("tester Class Trois Points")
         // Partie définition des points et distances
-        const pointA = new Point(1, 5);
+        const pointA = new Point(1, 5); // valeur randoms
         const pointB = new Point(4, 6);
         const pointC = new Point(1, 8);
         console.log("Point A", pointA.afficher());
@@ -45,7 +45,7 @@ export class TestExercice {
         console.log(" ")
         // Setter avec Partie abscisse et ordonnée de A B C :
         pointA._abs = 1; // je définis les 3 points en abs et ord
-        pointA._ord = 6;
+        pointA._ord = 6; // valeur points
 
         pointB._abs = 5;
         pointB._ord = 7;
