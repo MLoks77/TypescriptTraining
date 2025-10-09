@@ -46,7 +46,7 @@ var TestExercice = /** @class */ (function () {
         console.log("Point C", pointC.afficher());
         console.log(" ");
         // Setter avec Partie abscisse et ordonnée de A B C :
-        pointA._abs = 1;
+        pointA._abs = 1; // je définis les 3 points en abs et ord
         pointA._ord = 6;
         pointB._abs = 5;
         pointB._ord = 7;

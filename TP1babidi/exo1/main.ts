@@ -11,12 +11,12 @@ export class TestExercice {
         // Partie1
         const pointA = new Point(1, 2);
         const pointB = new Point(4, 6);
-        console.log("Point A",pointA.afficher());
-        console.log("Point B",pointB.afficher());
+        console.log("Point A", pointA.afficher());
+        console.log("Point B", pointB.afficher());
         console.log(" ")
         // Setter 2
-        pointA._abs-3;
-        pointB._ord-5;
+        pointA._abs - 3;
+        pointB._ord - 5;
         console.log('Point A modifié', pointA.afficher());
         console.log(" ")
         // Getter 3
@@ -25,11 +25,11 @@ export class TestExercice {
         console.log(" ")
         // méthode statique
         const distanceStatique = Point.distance(1, 2, 4, 6);
-        console.log("Distance statique 1 2 4 6", distanceStatique);
+        console.log("Distance statique :", distanceStatique);
         console.log(" ")
         //partie 5 calcul du milieu
         const milieu = pointA.calculerMilieu(pointB);
-        console.log("Milieu AB",milieu.afficher())
+        console.log("Milieu AB", milieu.afficher())
         console.log("FIN Class Point -------------------------")
     }
 
@@ -39,9 +39,9 @@ export class TestExercice {
         const pointA = new Point(1, 5);
         const pointB = new Point(4, 6);
         const pointC = new Point(1, 8);
-        console.log("Point A",pointA.afficher());
-        console.log("Point B",pointB.afficher());
-        console.log("Point C",pointC.afficher());
+        console.log("Point A", pointA.afficher());
+        console.log("Point B", pointB.afficher());
+        console.log("Point C", pointC.afficher());
         console.log(" ")
         // Setter avec Partie abscisse et ordonnée de A B C :
         pointA._abs = 1; // je définis les 3 points en abs et ord
